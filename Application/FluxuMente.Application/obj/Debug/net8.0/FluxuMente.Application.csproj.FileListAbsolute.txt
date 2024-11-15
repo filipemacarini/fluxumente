@@ -1,0 +1,16 @@
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\bin\Debug\net8.0\FluxuMente.Application.deps.json
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\bin\Debug\net8.0\FluxuMente.Application.dll
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\bin\Debug\net8.0\FluxuMente.Application.pdb
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\bin\Debug\net8.0\FluxuMente.Domain.dll
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\bin\Debug\net8.0\FluxuMente.Domain.pdb
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\FluxuMente.Application.csproj.AssemblyReference.cache
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\FluxuMente.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\FluxuMente.Application.AssemblyInfoInputs.cache
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\FluxuMente.Application.AssemblyInfo.cs
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\FluxuMente.Application.csproj.CoreCompileInputs.cache
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\FluxuMente.Application.sourcelink.json
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\FluxuMen.D9B9F5C9.Up2Date
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\FluxuMente.Application.dll
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\refint\FluxuMente.Application.dll
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\FluxuMente.Application.pdb
+C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\obj\Debug\net8.0\ref\FluxuMente.Application.dll

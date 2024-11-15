@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
-namespace FluxuMente.Core.Models
+namespace FluxuMente.Domain.Entities
 {
-    internal class ModelsResponse
+    public class ModelsResponse
     {
+        [JsonPropertyName("models")]
+        public List<ModelsResponseModel> Models { get; set; }
     }
 }

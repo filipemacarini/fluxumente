@@ -3,92 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\manau\\source\\repos\\FluxuMente\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\configurations\\fontregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\configurations\\fontregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\configurations\\handlerregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\configurations\\handlerregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\views\\installguideview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\views\\installguideview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A85708A7-7A4A-44AD-BE96-724549951C64}|Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\infrastructure\\fluxumente.infrastructure\\repositories\\ollamachatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A85708A7-7A4A-44AD-BE96-724549951C64}|Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj|solutionrelative:infrastructure\\fluxumente.infrastructure\\repositories\\ollamachatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\views\\installguideview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\views\\installguideview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\views\\customizationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\views\\customizationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\viewmodels\\installguideviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\viewmodels\\installguideviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\views\\chatview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\views\\chatview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\abstractions\\iollamachatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\abstractions\\iollamachatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\fluxumente.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\fluxumente.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A85708A7-7A4A-44AD-BE96-724549951C64}|Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\infrastructure\\fluxumente.infrastructure\\fluxumente.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A85708A7-7A4A-44AD-BE96-724549951C64}|Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj|solutionrelative:infrastructure\\fluxumente.infrastructure\\fluxumente.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A85708A7-7A4A-44AD-BE96-724549951C64}|Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\infrastructure\\fluxumente.infrastructure\\implementations\\ollamachatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A85708A7-7A4A-44AD-BE96-724549951C64}|Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj|solutionrelative:infrastructure\\fluxumente.infrastructure\\implementations\\ollamachatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A85708A7-7A4A-44AD-BE96-724549951C64}|Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\infrastructure\\fluxumente.infrastructure\\implementations\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A85708A7-7A4A-44AD-BE96-724549951C64}|Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj|solutionrelative:infrastructure\\fluxumente.infrastructure\\implementations\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\viewmodels\\installguideviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\viewmodels\\installguideviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\transformers\\listconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\transformers\\listconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\fluxumente.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\fluxumente.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\fluxumente.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|solutionrelative:core\\fluxumente.core\\fluxumente.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\viewmodels\\customizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\viewmodels\\customizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\entities\\chatresponsedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|solutionrelative:core\\fluxumente.core\\entities\\chatresponsedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\entities\\modelsresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|solutionrelative:core\\fluxumente.core\\entities\\modelsresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\entities\\modelsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|solutionrelative:core\\fluxumente.core\\entities\\modelsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\entities\\chatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|solutionrelative:core\\fluxumente.core\\entities\\chatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\entities\\chatresponsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|solutionrelative:core\\fluxumente.core\\entities\\chatresponsemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\entities\\chatresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|solutionrelative:core\\fluxumente.core\\entities\\chatresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\abstractions\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|solutionrelative:core\\fluxumente.core\\abstractions\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\abstractions\\iollamachatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|solutionrelative:core\\fluxumente.core\\abstractions\\iollamachatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,8 +42,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InstallGuideViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\InstallGuideViewModel.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\ViewModels\\InstallGuideViewModel.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\InstallGuideViewModel.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\ViewModels\\InstallGuideViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T22:18:37.414Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InstallGuideView.xaml",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAJAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-14T17:05:59.924Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -142,269 +114,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomizationView.xaml",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\CustomizationView.xaml",
-              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Views\\CustomizationView.xaml",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\CustomizationView.xaml",
-              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Views\\CustomizationView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T17:06:13.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InstallGuideView.xaml",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
-              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
-              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T17:05:59.924Z",
+              "DocumentIndex": 1,
+              "Title": "FontRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Configurations\\FontRegistry.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Configurations\\FontRegistry.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Configurations\\FontRegistry.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Configurations\\FontRegistry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T23:15:39.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChatView.xaml",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\ChatView.xaml",
-              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Views\\ChatView.xaml",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\ChatView.xaml",
-              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Views\\ChatView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T17:05:43.979Z"
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\MauiProgram.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\MauiProgram.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T23:14:54.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HandlerRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Configurations\\HandlerRegistry.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Configurations\\HandlerRegistry.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Configurations\\HandlerRegistry.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Configurations\\HandlerRegistry.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T23:07:58.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FluxuMente.Presentation.csproj",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
-              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
-              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T17:04:59.691Z"
+              "Title": "InstallGuideView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T23:00:58.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OllamaChatRepository.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\Repositories\\OllamaChatRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\FluxuMente.Infrastructure\\Repositories\\OllamaChatRepository.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\Repositories\\OllamaChatRepository.cs",
-              "RelativeToolTip": "Infrastructure\\FluxuMente.Infrastructure\\Repositories\\OllamaChatRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwEoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:02:41.129Z",
+              "WhenOpened": "2024-11-15T23:00:47.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "OllamaChatService.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\Implementations\\OllamaChatService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\FluxuMente.Infrastructure\\Implementations\\OllamaChatService.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\Implementations\\OllamaChatService.cs",
-              "RelativeToolTip": "Infrastructure\\FluxuMente.Infrastructure\\Implementations\\OllamaChatService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:02:10.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NavigationService.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\Implementations\\NavigationService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\FluxuMente.Infrastructure\\Implementations\\NavigationService.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\Implementations\\NavigationService.cs",
-              "RelativeToolTip": "Infrastructure\\FluxuMente.Infrastructure\\Implementations\\NavigationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:01:30.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FluxuMente.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj",
-              "RelativeToolTip": "Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T17:00:55.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InstallGuideViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\ViewModels\\InstallGuideViewModel.cs",
-              "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\ViewModels\\InstallGuideViewModel.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\ViewModels\\InstallGuideViewModel.cs",
-              "RelativeToolTip": "Application\\FluxuMente.Application\\ViewModels\\InstallGuideViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:48:09.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "INavigationService.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Abstractions\\INavigationService.cs",
-              "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Abstractions\\INavigationService.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Abstractions\\INavigationService.cs",
-              "RelativeToolTip": "Core\\FluxuMente.Core\\Abstractions\\INavigationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:40:05.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "IOllamaChatService.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Abstractions\\IOllamaChatService.cs",
-              "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Abstractions\\IOllamaChatService.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Abstractions\\IOllamaChatService.cs",
-              "RelativeToolTip": "Core\\FluxuMente.Core\\Abstractions\\IOllamaChatService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Abstractions\\IOllamaChatService.cs",
+              "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\Abstractions\\IOllamaChatService.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Abstractions\\IOllamaChatService.cs",
+              "RelativeToolTip": "Application\\FluxuMente.Application\\Abstractions\\IOllamaChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:40:16.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ListConverter.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Transformers\\ListConverter.cs",
-              "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\Transformers\\ListConverter.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Transformers\\ListConverter.cs",
-              "RelativeToolTip": "Application\\FluxuMente.Application\\Transformers\\ListConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:59:13.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CustomizationViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\ViewModels\\CustomizationViewModel.cs",
-              "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\ViewModels\\CustomizationViewModel.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\ViewModels\\CustomizationViewModel.cs",
-              "RelativeToolTip": "Application\\FluxuMente.Application\\ViewModels\\CustomizationViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:48:27.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ChatViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\ViewModels\\ChatViewModel.cs",
-              "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\ViewModels\\ChatViewModel.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\ViewModels\\ChatViewModel.cs",
-              "RelativeToolTip": "Application\\FluxuMente.Application\\ViewModels\\ChatViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:47:35.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FluxuMente.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\FluxuMente.Domain.csproj",
-              "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\FluxuMente.Domain.csproj",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\FluxuMente.Domain.csproj",
-              "RelativeToolTip": "Core\\FluxuMente.Core\\FluxuMente.Domain.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T16:35:09.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FluxuMente.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\FluxuMente.Application.csproj",
-              "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\FluxuMente.Application.csproj",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\FluxuMente.Application.csproj",
-              "RelativeToolTip": "Application\\FluxuMente.Application\\FluxuMente.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T16:42:24.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ModelsResponseModel.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ModelsResponseModel.cs",
-              "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Entities\\ModelsResponseModel.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ModelsResponseModel.cs",
-              "RelativeToolTip": "Core\\FluxuMente.Core\\Entities\\ModelsResponseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:38:46.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ModelsResponse.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ModelsResponse.cs",
-              "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Entities\\ModelsResponse.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ModelsResponse.cs",
-              "RelativeToolTip": "Core\\FluxuMente.Core\\Entities\\ModelsResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:37:49.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ChatResponseMessage.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ChatResponseMessage.cs",
-              "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Entities\\ChatResponseMessage.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ChatResponseMessage.cs",
-              "RelativeToolTip": "Core\\FluxuMente.Core\\Entities\\ChatResponseMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:37:32.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ChatResponseDetails.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ChatResponseDetails.cs",
-              "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Entities\\ChatResponseDetails.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ChatResponseDetails.cs",
-              "RelativeToolTip": "Core\\FluxuMente.Core\\Entities\\ChatResponseDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:37:04.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ChatResponse.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ChatResponse.cs",
-              "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Entities\\ChatResponse.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ChatResponse.cs",
-              "RelativeToolTip": "Core\\FluxuMente.Core\\Entities\\ChatResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:35:59.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ChatRequest.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ChatRequest.cs",
-              "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Entities\\ChatRequest.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\ChatRequest.cs",
-              "RelativeToolTip": "Core\\FluxuMente.Core\\Entities\\ChatRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T16:35:49.238Z"
+              "WhenOpened": "2024-11-15T22:39:59.815Z",
+              "EditorCaption": ""
             }
           ]
         }

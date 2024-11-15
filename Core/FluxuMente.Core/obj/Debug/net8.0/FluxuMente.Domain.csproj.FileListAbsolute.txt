@@ -1,0 +1,12 @@
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\bin\Debug\net8.0\FluxuMente.Domain.deps.json
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\bin\Debug\net8.0\FluxuMente.Domain.dll
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\bin\Debug\net8.0\FluxuMente.Domain.pdb
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\obj\Debug\net8.0\FluxuMente.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\obj\Debug\net8.0\FluxuMente.Domain.AssemblyInfoInputs.cache
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\obj\Debug\net8.0\FluxuMente.Domain.AssemblyInfo.cs
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\obj\Debug\net8.0\FluxuMente.Domain.csproj.CoreCompileInputs.cache
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\obj\Debug\net8.0\FluxuMente.Domain.sourcelink.json
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\obj\Debug\net8.0\FluxuMente.Domain.dll
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\obj\Debug\net8.0\refint\FluxuMente.Domain.dll
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\obj\Debug\net8.0\FluxuMente.Domain.pdb
+C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\obj\Debug\net8.0\ref\FluxuMente.Domain.dll

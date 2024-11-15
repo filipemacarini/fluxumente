@@ -1,12 +1,14 @@
-﻿namespace FluxuMente.Presentation
+﻿using FluxuMente.Presentation.Views;
+
+namespace FluxuMente.Presentation
 {
-    public partial class App : Application
+    public partial class App : Microsoft.Maui.Controls.Application
     {
-        public App()
+        public App(IServiceProvider serviceProvider)
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = serviceProvider.GetRequiredService<InstallGuideView>();
         }
     }
 }

@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
-namespace FluxuMente.Core.Models
+namespace FluxuMente.Domain.Entities
 {
-    internal class ModelsResponseModel
+    public class ModelsResponseModel
     {
+        [JsonPropertyName("name")]
+        public string Name { get; set; }
+
+        [JsonPropertyName("modified_at")]
+        public DateTime ModifiedAt { get; set; }
+
+        [JsonPropertyName("size")]
+        public long Size { get; set; }
+
+        [JsonPropertyName("digest")]
+        public string Digest { get; set; }
+
+        [JsonPropertyName("details")]
+        public ChatResponseDetails Details { get; set; }
     }
 }

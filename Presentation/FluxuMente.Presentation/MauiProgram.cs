@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using FluxuMente.Presentation.Configuration;
+using FluxuMente.Presentation.Configurations;
+using Microsoft.Extensions.Logging;
 
 namespace FluxuMente.Presentation
 {
@@ -8,12 +10,12 @@ namespace FluxuMente.Presentation
         {
             var builder = MauiApp.CreateBuilder();
             builder
-                .UseMauiApp<App>()
-                .ConfigureFonts(fonts =>
-                {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                });
+                .UseMauiApp<App>();
+
+            // Configurations
+            DependencyInjection.ConfigureServices(builder.Services);
+            HandlerRegistry.RegisterHandlers();
+            FontRegistry.ConfigureFonts(builder);
 
 #if DEBUG
     		builder.Logging.AddDebug();

@@ -3,10 +3,147 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FluxuMente.Presentation.Views.InstallGuideView"
              Title="InstallGuideView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ContentPage.Resources>
+        <Style x:Key="SimpleTextStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="TextColor" Value="{StaticResource Gray100}"/>
+            <Setter Property="FontFamily" Value="RobotoR"/>
+        </Style>
+
+        <Style x:Key="CodeTextStyle" TargetType="Editor">
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="TextColor" Value="{StaticResource Gray100}"/>
+            <Setter Property="FontFamily" Value="RobotoMono"/>
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="8, 16"
+            MaximumWidthRequest="640"
+            Spacing="16">
+            <Label 
+                Text="Seja Bem-vindo!"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontFamily="Roboto"
+                FontSize="32"/>
+            <Label
+                Text="Para continuar, será necessário instalar o modelo de IA da Meta. É simples! Basta seguir esses passos:"
+                Style="{StaticResource SimpleTextStyle}"/>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span 
+                            Text="1. Acesse o site oficial do Ollama em "
+                            Style="{StaticResource SimpleTextStyle}"/>
+                        <Span 
+                            Text="https://ollama.com"
+                            Style="{StaticResource SimpleTextStyle}"
+                            FontFamily="Roboto">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Command="{Binding OpenUrlCommand}"
+                                    CommandParameter="https://ollama.com"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                        <Span 
+                            Text=" e baixe o aplicativo."
+                            Style="{StaticResource SimpleTextStyle}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label
+                Text="2. Após a instalação do Ollama, você precisará adicionar o modelo de IA que deseja. Para isso, abra o terminal e digite o comando abaixo:"
+                Style="{StaticResource SimpleTextStyle}"/>
+            <Border
+                StrokeThickness="0"
+                BackgroundColor="{StaticResource Gray950}"
+                StrokeShape="RoundRectangle 16">
+                <Grid
+                    ColumnDefinitions="*, 55">
+                    <VerticalStackLayout
+                        Spacing="6"
+                        Margin="16, 16, 16, 8">
+                        <Editor
+                            Text="ollama pull llama3.2:3b&#x0a;ollama pull llama3.1:8b"
+                            Style="{StaticResource CodeTextStyle}"/>
+                    </VerticalStackLayout>
+                    <Button
+                        Grid.Column="1"
+                        BackgroundColor="{StaticResource Green}"
+                        Text="IR"
+                        FontFamily="Roboto"
+                        FontSize="28"
+                        TextColor="{StaticResource Gray100}"
+                        CornerRadius="0"
+                        Command="{Binding GoTerminalCommand}"
+                        CommandParameter="/k ollama pull llama3.2:3b &amp; ollama pull llama3.1:8b &amp; ollama list"/>
+                </Grid>
+            </Border>
+            <Label
+                Text="Os modelos que o comando acima instala são o llama3.2 com 3 bilhões de parâmetros (llama3.2:3b) e o llama3.1 com 8 bilhões de parâmetros (llama3.1:8b). Esses são os modelos que eu recomendo, pois oferecem uma excelente relação entre rapidez e inteligência, sendo ideais para este projeto."
+                Style="{StaticResource SimpleTextStyle}"/>
+            <Label
+                Style="{StaticResource SimpleTextStyle}">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span 
+                            Text="No entanto, caso deseje testar outras opções, existem diversos modelos disponíveis. Você pode encontrá-los "
+                            Style="{StaticResource SimpleTextStyle}"/>
+                        <Span 
+                            Text="https://ollama.com/library"
+                            Style="{StaticResource SimpleTextStyle}"
+                            FontFamily="Roboto">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Command="{Binding OpenUrlCommand}"
+                                    CommandParameter="https://ollama.com/library"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label
+                Text="3. Agora, rode o serviço do Ollama utilizando o seguinte comando:"
+                Style="{StaticResource SimpleTextStyle}"/>
+            <Border
+                StrokeThickness="0"
+                BackgroundColor="{StaticResource Gray950}"
+                StrokeShape="RoundRectangle 16">
+                <Grid
+                    ColumnDefinitions="*, 55">
+                    <VerticalStackLayout
+                        Spacing="6"
+                        Margin="16, 16, 16, 8">
+                        <Editor
+                            Text="ollama serve"
+                            Style="{StaticResource CodeTextStyle}"/>
+                    </VerticalStackLayout>
+                    <Button
+                        Grid.Column="1"
+                        BackgroundColor="{StaticResource Green}"
+                        Text="IR"
+                        FontFamily="Roboto"
+                        FontSize="28"
+                        TextColor="{StaticResource Gray100}"
+                        CornerRadius="0"
+                        Command="{Binding GoTerminalCommand}"
+                        CommandParameter="/k ollama serve"/>
+                </Grid>
+            </Border>
+            <Label
+                Text="Obs: O comando acima irá executar o serviço do Ollama por padrão na porta 11434."
+                Style="{StaticResource SimpleTextStyle}"/>
+            <Button
+                Text="Prosseguir"
+                TextColor="{StaticResource Gray100}"
+                FontFamily="Roboto"
+                FontSize="18"
+                BackgroundColor="Blue"
+                HorizontalOptions="End"
+                CornerRadius="16"
+                Command="{Binding TestStateCommand}"
+                WidthRequest="200"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

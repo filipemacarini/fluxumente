@@ -1,0 +1,1 @@
+C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\FluxuMente.Presentation.csproj;x64

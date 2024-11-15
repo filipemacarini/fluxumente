@@ -51,6 +51,37 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\icons.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-Black.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-BlackItalic.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-Bold.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-BoldItalic.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-Italic.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-Light.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-LightItalic.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-Medium.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-MediumItalic.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-Regular.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-Thin.ttf" />
+	  <None Remove="Resources\Fonts\Roboto-ThinItalic.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-Bold.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-BoldItalic.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-ExtraLight.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-ExtraLightItalic.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-Italic.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-Light.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-LightItalic.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-Medium.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-MediumItalic.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-Regular.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-SemiBold.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-SemiBoldItalic.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-Thin.ttf" />
+	  <None Remove="Resources\Fonts\RobotoMono-ThinItalic.ttf" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
@@ -58,6 +89,11 @@
 
 	<ItemGroup>
 	  <Folder Include="Resources\Images\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Application\FluxuMente.Application\FluxuMente.Application.csproj" />
+	  <ProjectReference Include="..\..\Infrastructure\FluxuMente.Infrastructure\FluxuMente.Infrastructure.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
