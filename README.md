@@ -15,6 +15,17 @@ FluxuMente é uma interface (UI) para o consumo de IAs de texto do Ollama, propo
 2. **Use Offline**: Consuma as IAs sem precisar de conexão com a internet.
 3. **Personalize**: Ajuste as configurações da IA conforme sua necessidade.
 
+## Tecnologias Usadas
+
+- **.NET MAUI**: Framework para apps nativos multiplataforma.
+- **MVVM**: Padrão de design para separar lógica e UI.
+- **Clean Architecture**: Arquitetura modular e escalável.
+- **Ollama**: Biblioteca para integração com IAs de texto.
+
+## Plataforma
+
+FluxuMente foi desenvolvido para rodar no **Windows 10** ou posterior.
+
 ## O Projeto Está Completo?
 
 Infelizmente, o projeto ainda não está completo. No momento, já existe uma tela de instruções para ajudar a baixar e instalar as ferramentas. A tela de personalização da IA está em desenvolvimento.
