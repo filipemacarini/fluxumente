@@ -1,4 +1,4 @@
-﻿namespace FluxuMente.Application.Abstractions
+﻿namespace FluxuMente.Presentation.Navigation
 {
     public interface INavigationService
     {

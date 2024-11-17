@@ -1,12 +1,52 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using FluxuMente.Application.Abstractions;
+using FluxuMente.Application.DTOs;
+using FluxuMente.Presentation.Navigation;
+using FluxuMente.Presentation.Views;
+using System.Diagnostics;
 
 namespace FluxuMente.Application.ViewModels
 {
-    internal class CustomizationViewModel
+    public partial class CustomizationViewModel : ObservableObject
     {
+        private readonly INavigationService _navigationService;
+        private readonly ICustomizationMessageService _customizationMessageService;
+
+        private List<CustomizationMessageDTO> _customizationMessages;
+
+        [ObservableProperty]
+        public List<string> _customizationMessageTitles;        
+        [ObservableProperty]
+        public string _customizationMessage;
+        [ObservableProperty]
+        public string _customization;
+
+        public CustomizationViewModel(INavigationService navigationService, ICustomizationMessageService customizationMessageService)
+        {
+            _customizationMessageService = customizationMessageService;
+            _navigationService = navigationService;
+
+            Task.Run(InitializeAsync);
+        }
+
+        public async Task InitializeAsync()
+        {
+            try
+            {
+                _customizationMessages = await _customizationMessageService.GetAllMessagesAsync();
+                CustomizationMessageTitles = _customizationMessages.Select(msg => msg.Title).ToList();
+
+                CustomizationMessage = CustomizationMessageTitles.FirstOrDefault() ?? "None";
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+            }
+        }
+
+        [RelayCommand]
+        private async Task NextPage() =>
+            await _navigationService.NavigateToAsync(new ChatView());
     }
 }

@@ -1,4 +1,4 @@
-﻿using FluxuMente.Application.Abstractions;
+﻿using FluxuMente.Presentation.Navigation;
 
 namespace FluxuMente.Application.Implementations
 {

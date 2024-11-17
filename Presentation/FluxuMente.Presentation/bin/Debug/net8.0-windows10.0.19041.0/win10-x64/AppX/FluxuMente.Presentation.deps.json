@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v8.0/win10-x64": {
       "FluxuMente.Presentation/1.0": {
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
           "FluxuMente.Application": "1.0.0",
           "FluxuMente.Infrastructure": "1.0.0",
           "Microsoft.Extensions.Http": "9.0.0",
@@ -526,9 +527,7 @@
       },
       "FluxuMente.Application/1.0.0": {
         "dependencies": {
-          "CommunityToolkit.Mvvm": "8.2.2",
-          "FluxuMente.Domain": "1.0.0",
-          "Microsoft.Maui.Controls": "8.0.72"
+          "FluxuMente.Domain": "1.0.0"
         },
         "runtime": {
           "FluxuMente.Application.dll": {

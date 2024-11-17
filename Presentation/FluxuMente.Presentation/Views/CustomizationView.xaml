@@ -3,10 +3,61 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FluxuMente.Presentation.Views.CustomizationView"
              Title="CustomizationView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ContentPage.Resources>
+        <Style x:Key="SimpleTextStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="TextColor" Value="{StaticResource Gray100}"/>
+            <Setter Property="FontFamily" Value="RobotoR"/>
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="8, 16"
+            MaximumWidthRequest="640"
+            Spacing="16">
+            <Label 
+                Text="Confirme essas configurações"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontFamily="Roboto"
+                FontSize="32"/>
+            <Label
+                Text="Texto de personalização da IA:"
+                Style="{StaticResource SimpleTextStyle}"/>
+            <Border
+                StrokeThickness="0"
+                BackgroundColor="{StaticResource Gray950}"
+                StrokeShape="RoundRectangle 16"
+                Padding="16">
+                <Editor
+                    Text="{Binding Customization, Mode=TwoWay}"
+                    FontSize="16"
+                    TextColor="{StaticResource Gray100}"
+                    FontFamily="RobotoR"
+                    MaximumHeightRequest="100"/>
+            </Border>
+            <Grid
+                ColumnDefinitions="*, Auto">
+                <Picker
+                    HorizontalOptions="Start"
+                    FontFamily="Roboto"
+                    WidthRequest="150"
+                    TextColor="{StaticResource Gray100}"
+                    BackgroundColor="{StaticResource Gray600}"
+                    ItemsSource="{Binding CustomizationMessageTitles}"
+                    SelectedItem="{Binding CustomizationMessage, Mode=TwoWay}"/>
+                <Button
+                    Grid.Column="1"
+                    Text="Prosseguir"
+                    TextColor="{StaticResource Gray100}"
+                    FontFamily="Roboto"
+                    FontSize="18"
+                    BackgroundColor="Blue"
+                    HorizontalOptions="End"
+                    CornerRadius="16"
+                    Command="{Binding NextPageCommand}"
+                    WidthRequest="200"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

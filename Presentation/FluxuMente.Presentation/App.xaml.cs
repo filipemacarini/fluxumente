@@ -8,7 +8,7 @@ namespace FluxuMente.Presentation
         {
             InitializeComponent();
 
-            MainPage = serviceProvider.GetRequiredService<InstallGuideView>();
+            MainPage = new NavigationPage(serviceProvider.GetRequiredService<InstallGuideView>());
         }
     }
 }

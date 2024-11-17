@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FluxuMente.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4543ba8591244f5d306cad5dea57573ae90e45ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5580a38894f02eba146cc89a6c6d0dd8cd7417b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FluxuMente.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FluxuMente.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

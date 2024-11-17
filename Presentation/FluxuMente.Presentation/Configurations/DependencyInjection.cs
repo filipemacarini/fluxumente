@@ -1,5 +1,6 @@
 ﻿using FluxuMente.Application.Abstractions;
 using FluxuMente.Application.Implementations;
+using FluxuMente.Presentation.Navigation;
 using FluxuMente.Presentation.Views;
 
 namespace FluxuMente.Presentation.Configuration
@@ -10,10 +11,12 @@ namespace FluxuMente.Presentation.Configuration
         {
             // Views
             services.AddSingleton<InstallGuideView>();
+            services.AddSingleton<CustomizationView>();
 
             // Services
             services.AddSingleton<IOllamaChatService, OllamaChatService>();
             services.AddSingleton<INavigationService, NavigationService>();
+            services.AddSingleton<ICustomizationMessageService, CustomizationMessageService>();
 
             // HttpClients
             services.AddHttpClient<IOllamaChatService, OllamaChatService>(client =>
