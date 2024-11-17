@@ -34,9 +34,9 @@
               "Title": "CustomizationViewModel.cs",
               "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
               "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
-              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCQAAAAQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs*",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T18:05:29.282Z",
               "IsPinned": true,
@@ -50,7 +50,7 @@
               "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
               "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
               "RelativeToolTip": "Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwCkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAswG0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T19:50:36.079Z",
               "IsPinned": true,
@@ -104,7 +104,7 @@
               "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Entities\\CustomizationMessage.cs",
               "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\CustomizationMessage.cs",
               "RelativeToolTip": "Core\\FluxuMente.Core\\Entities\\CustomizationMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T19:38:57.009Z",
               "EditorCaption": ""
@@ -119,8 +119,7 @@
               "RelativeToolTip": "Application\\FluxuMente.Application\\Mappers\\CustomizationMessageMapper.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:29:48.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T18:29:48.449Z"
             }
           ]
         }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\manau\\source\\repos\\FluxuMente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\implementations\\customizationmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\implementations\\customizationmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\viewmodels\\customizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\viewmodels\\customizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\implementations\\customizationmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\implementations\\customizationmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05790541-D62B-443E-9133-E336D1F9B359}|Core\\FluxuMente.Core\\FluxuMente.Domain.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\core\\fluxumente.core\\entities\\customizationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CustomizationViewModel.cs",
               "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
               "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
               "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
               "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA3wCQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T18:05:29.282Z",
               "IsPinned": true,
@@ -44,13 +44,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CustomizationMessageService.cs",
               "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
               "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
               "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
               "RelativeToolTip": "Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAkwF4AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAswG0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T19:50:36.079Z",
               "IsPinned": true,
@@ -104,7 +104,7 @@
               "RelativeDocumentMoniker": "Core\\FluxuMente.Core\\Entities\\CustomizationMessage.cs",
               "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Core\\FluxuMente.Core\\Entities\\CustomizationMessage.cs",
               "RelativeToolTip": "Core\\FluxuMente.Core\\Entities\\CustomizationMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T19:38:57.009Z",
               "EditorCaption": ""
@@ -119,8 +119,7 @@
               "RelativeToolTip": "Application\\FluxuMente.Application\\Mappers\\CustomizationMessageMapper.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:29:48.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T18:29:48.449Z"
             }
           ]
         }

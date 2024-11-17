@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-17T19:41:01.510</Modified>
+      <Modified>2024-11-17T20:46:19.761</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-16T18:38:03.604</Modified>
+      <Modified>2024-11-17T20:39:33.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.Presentation.runtimeconfig.json">
       <PackagePath>FluxuMente.Presentation.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.Presentation.dll">
       <PackagePath>FluxuMente.Presentation.dll</PackagePath>
-      <Modified>2024-11-17T19:41:00.596</Modified>
+      <Modified>2024-11-17T20:46:18.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FluxuMente.Presentation.exe</PackagePath>
-      <Modified>2024-11-17T19:41:00.603</Modified>
+      <Modified>2024-11-17T20:46:18.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -688,15 +688,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\bin\Debug\net8.0\FluxuMente.Application.dll">
       <PackagePath>FluxuMente.Application.dll</PackagePath>
-      <Modified>2024-11-17T19:43:37.400</Modified>
+      <Modified>2024-11-17T20:44:25.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\bin\Debug\net8.0\FluxuMente.Domain.dll">
       <PackagePath>FluxuMente.Domain.dll</PackagePath>
-      <Modified>2024-11-17T19:24:13.671</Modified>
+      <Modified>2024-11-17T20:39:29.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Infrastructure\FluxuMente.Infrastructure\bin\Debug\net8.0\FluxuMente.Infrastructure.dll">
       <PackagePath>FluxuMente.Infrastructure.dll</PackagePath>
-      <Modified>2024-11-17T19:40:56.682</Modified>
+      <Modified>2024-11-17T20:39:29.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\.nuget\packages\microsoft.maui.controls.compatibility\8.0.72\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -14,21 +14,23 @@ namespace FluxuMente.Application.Implementations
         private readonly string _appDataPath;
         private readonly string _folderPath;
         private readonly string _filePath;
-        private readonly string _defaultMessages;
+        private readonly List<CustomizationMessage> _defaultMessages;
 
         public CustomizationMessageService()
         {
+            _messageMapper = new CustomizationMessageMapper();
+
             _appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             _folderPath = Path.Combine(_appDataPath, "FluxuMente");
             _filePath = Path.Combine(_folderPath, "CustomizationMessages.json");
 
-            _defaultMessages = JsonSerializer.Serialize<List<CustomizationMessage>>(new()
+            _defaultMessages = new()
             {
                 new() { Title = "Irmão", Message = "Default" },
                 new() { Title = "Irmã", Message = "Default" },
                 new() { Title = "Pai", Message = "Default" },
                 new() { Title = "Mãe", Message = "Default" },
-            });
+            };
         }
 
         public async Task<List<CustomizationMessageDTO>> GetAllMessagesAsync()
@@ -87,19 +89,25 @@ namespace FluxuMente.Application.Implementations
                 Directory.CreateDirectory(_folderPath);
 
             if (!File.Exists(_filePath))
-                await File.WriteAllTextAsync(_filePath, _defaultMessages);
+            {
+                using FileStream createStream = File.Create(_filePath);
+                await JsonSerializer.SerializeAsync(createStream, _defaultMessages);
+                await createStream.DisposeAsync();
+            }
         }
 
         private async Task SaveMessagesAsync(List<CustomizationMessage> messages)
         {
-            var json = JsonSerializer.Serialize(messages);
-            await File.WriteAllTextAsync(_filePath, json);
+            using FileStream createStream = File.Create(_filePath);
+            await JsonSerializer.SerializeAsync(createStream, messages);
+            await createStream.DisposeAsync();
         }
 
         private async Task SaveMessagesAsync(List<CustomizationMessageDTO> messages)
         {
-            var json = JsonSerializer.Serialize(_messageMapper.MapToEntityList(messages));
-            await File.WriteAllTextAsync(_filePath, json);
+            using FileStream createStream = File.Create(_filePath);
+            await JsonSerializer.SerializeAsync(createStream, _messageMapper.MapToEntityList(messages));
+            await createStream.DisposeAsync();
         }
     }
 

@@ -32,17 +32,10 @@ namespace FluxuMente.Application.ViewModels
 
         public async Task InitializeAsync()
         {
-            try
-            {
-                _customizationMessages = await _customizationMessageService.GetAllMessagesAsync();
-                CustomizationMessageTitles = _customizationMessages.Select(msg => msg.Title).ToList();
+            _customizationMessages = await _customizationMessageService.GetAllMessagesAsync();
+            CustomizationMessageTitles = _customizationMessages.Select(msg => msg.Title).ToList();
 
-                CustomizationMessage = CustomizationMessageTitles.FirstOrDefault() ?? "None";
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-            }
+            CustomizationMessage = CustomizationMessageTitles.FirstOrDefault() ?? "None";
         }
 
         [RelayCommand]
