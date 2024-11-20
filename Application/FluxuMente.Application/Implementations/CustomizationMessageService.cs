@@ -91,23 +91,21 @@ namespace FluxuMente.Application.Implementations
 
             if (!File.Exists(_filePath))
             {
-                using FileStream createStream = File.Create(_filePath);
-                await JsonSerializer.SerializeAsync(createStream, _defaultMessages);
-                await createStream.DisposeAsync();
+                await SaveMessagesAsync(_defaultMessages);
             }
         }
 
         private async Task SaveMessagesAsync(List<CustomizationMessage> messages)
         {
             using FileStream createStream = File.Create(_filePath);
-            await JsonSerializer.SerializeAsync(createStream, messages);
+            await JsonSerializer.SerializeAsync(createStream, messages, new JsonSerializerOptions() { WriteIndented = true });
             await createStream.DisposeAsync();
         }
 
         private async Task SaveMessagesAsync(List<CustomizationMessageDTO> messages)
         {
             using FileStream createStream = File.Create(_filePath);
-            await JsonSerializer.SerializeAsync(createStream, _messageMapper.MapToEntityList(messages));
+            await JsonSerializer.SerializeAsync(createStream, _messageMapper.MapToEntityList(messages), new JsonSerializerOptions() { WriteIndented = true });
             await createStream.DisposeAsync();
         }
     }

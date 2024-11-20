@@ -1,6 +1,6 @@
-using FluxuMente.Application.ViewModels;
 using FluxuMente.Application.Abstractions;
 using FluxuMente.Presentation.Navigation;
+using FluxuMente.Presentation.ViewModels;
 
 namespace FluxuMente.Presentation.Views;
 

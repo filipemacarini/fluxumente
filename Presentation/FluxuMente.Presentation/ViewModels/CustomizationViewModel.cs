@@ -8,7 +8,7 @@ using Microsoft.UI.Xaml;
 using System.Diagnostics;
 using System.Windows.Input;
 
-namespace FluxuMente.Application.ViewModels
+namespace FluxuMente.Presentation.ViewModels
 {
     public partial class CustomizationViewModel : ObservableObject
     {
@@ -53,7 +53,17 @@ namespace FluxuMente.Application.ViewModels
         public void NavigateToNextPage(string page)
         {
             Type pageType = Type.GetType($"FluxuMente.Presentation.Views.{page}");
-            _navigationService.NavigateToAsync((Page)_serviceProvider.GetRequiredService(pageType));
+
+            if (page == "ChatView")
+            {
+                ChatView chatViewInstance = new ChatView(_serviceProvider.GetService<IOllamaChatService>(), CustomizationMessageMessage);
+                _navigationService.NavigateToAsync(chatViewInstance);
+            }
+            else
+            {
+                Page pageInstance = (Page)_serviceProvider.GetRequiredService(pageType);
+                _navigationService.NavigateToAsync(pageInstance);
+            }
         }
     }
 }

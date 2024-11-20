@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FluxuMente.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3195e5680eed82e29248c087f6e13ea49ef39235")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3e8dd14d8061251722f55ede8dd3e07b3b53a576")]
 [assembly: System.Reflection.AssemblyProductAttribute("FluxuMente.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FluxuMente.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

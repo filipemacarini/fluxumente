@@ -279,6 +279,10 @@
               "target": "Package",
               "version": "[8.2.2, )"
             },
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.38.0, )"
+            },
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[9.0.0, )"

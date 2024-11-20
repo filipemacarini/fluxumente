@@ -1,12 +1,124 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FluxuMente.Presentation.Views.ChatView"
-             Title="ChatView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:FluxuMente.Presentation.Converters"
+    x:Class="FluxuMente.Presentation.Views.ChatView"
+    Title="ChatView">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ListConverter x:Key="listConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid
+        x:Name="MainGrid"
+        RowDefinitions="Auto, *, Auto"
+        RowSpacing="12"
+        Padding="12, 0"
+        MaximumWidthRequest="640"
+        VerticalOptions="FillAndExpand">
+        <Border
+            StrokeShape="RoundRectangle 0, 0, 38, 38"
+            StrokeThickness="0">
+            <Grid
+                Padding="16"
+                ColumnSpacing="10"
+                ColumnDefinitions="Auto, Auto, *"
+                BackgroundColor="{StaticResource Gray950}">
+                <Border
+                    WidthRequest="44"
+                    HeightRequest="44"
+                    StrokeThickness="0"
+                    BackgroundColor="White"
+                    StrokeShape="RoundRectangle 44">
+                    <Image
+                        Source="https://ollama.com/public/ollama.png"
+                        Aspect="AspectFit"/>
+                </Border>
+                <Label
+                    Grid.Column="1"
+                    Text="LLaMA"
+                    TextColor="{StaticResource Gray100}"
+                    VerticalOptions="Center"
+                    FontFamily="Roboto"/>
+                <Picker
+                    Grid.Column="2"
+                    AutomationId="SpecialPicker"
+                    FontFamily="Roboto"
+                    WidthRequest="150"
+                    TextColor="{StaticResource Gray100}"
+                    BackgroundColor="{StaticResource Gray600}"
+                    HorizontalOptions="End"
+                    ItemsSource="{Binding Models}"
+                    SelectedItem="{Binding Model, Mode=TwoWay}"/>
+            </Grid>
+        </Border>
+        <CollectionView
+            VerticalScrollBarVisibility="Never"
+            Grid.Row="1"
+            ItemsSource="{Binding Messages, Converter={StaticResource Key=listConverter}}"
+            VerticalOptions="StartAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid
+                        HorizontalOptions="FillAndExpand"
+                        ColumnDefinitions="{Binding Columns}"
+                        Padding="{Binding Spacing}">
+                        <Border
+                            Grid.Column="{Binding Side}"
+                            BackgroundColor="{StaticResource Gray950}"
+                            HorizontalOptions="{Binding SideLayout}"
+                            StrokeThickness="0"
+                            StrokeShape="{Binding Corner}"
+                            Padding="16">
+                            <Label TextType="Html" Text="{Binding ContentHtml}" TextColor="{StaticResource Gray100}" FontFamily="Roboto"/>
+                        </Border>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Border
+            Grid.Row="2"
+            StrokeThickness="0"
+            BackgroundColor="{StaticResource Gray800}"
+            StrokeShape="RoundRectangle 26"
+            HeightRequest="52"
+            Margin="0, 0, 0, 12">
+            <Grid
+                ColumnDefinitions="*, Auto"
+                ColumnSpacing="7"
+                Padding="16, 0, 0, 0">
+                <Entry
+                    x:Name="EntryMessage"
+                    VerticalOptions="Center"
+                    Placeholder="Digite sua mensagem"
+                    FontFamily="Roboto"
+                    TextColor="{StaticResource Gray100}" 
+                    PlaceholderColor="{StaticResource Gray200}"
+                    Text="{Binding RequestMessage, Mode=TwoWay}"/>
+                <Border
+                    Grid.Column="1"
+                    WidthRequest="38"
+                    HeightRequest="38"
+                    Margin="0, 0, 7, 0"
+                    Padding="8"
+                    StrokeThickness="0"
+                    StrokeShape="RoundRectangle 100"
+                    HorizontalOptions="CenterAndExpand"
+                    Background="{StaticResource Gray500}">
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource
+                                Glyph="&#xE803;"
+                                FontFamily="Icons"
+                                Color="{StaticResource Gray800}"/>
+                        </Image.Source>
+                    </Image>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding SendCommand}"/>
+                    </Border.GestureRecognizers>
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
 </ContentPage>

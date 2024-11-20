@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-20T01:00:43.124</Modified>
+      <Modified>2024-11-20T18:27:07.815</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-19T14:23:23.300</Modified>
+      <Modified>2024-11-20T16:27:47.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.Presentation.runtimeconfig.json">
       <PackagePath>FluxuMente.Presentation.runtimeconfig.json</PackagePath>
-      <Modified>2024-11-18T14:37:58.409</Modified>
+      <Modified>2024-11-20T16:27:47.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.Presentation.dll">
       <PackagePath>FluxuMente.Presentation.dll</PackagePath>
-      <Modified>2024-11-20T01:00:42.570</Modified>
+      <Modified>2024-11-20T18:27:07.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FluxuMente.Presentation.exe</PackagePath>
-      <Modified>2024-11-20T01:00:42.580</Modified>
+      <Modified>2024-11-20T18:27:07.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -376,7 +376,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.Presentation.deps.json">
       <PackagePath>FluxuMente.Presentation.deps.json</PackagePath>
-      <Modified>2024-11-19T14:23:22.920</Modified>
+      <Modified>2024-11-20T16:27:47.470</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -397,6 +397,10 @@
     <AppxPackagedFile Include="C:\Users\manau\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
       <Modified>2023-10-24T20:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manau\.nuget\packages\markdig\0.38.0\lib\net8.0\Markdig.dll">
+      <PackagePath>Markdig.dll</PackagePath>
+      <Modified>2024-10-25T20:07:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\.nuget\packages\microsoft.extensions.configuration\9.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -700,15 +704,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Application\FluxuMente.Application\bin\Debug\net8.0\FluxuMente.Application.dll">
       <PackagePath>FluxuMente.Application.dll</PackagePath>
-      <Modified>2024-11-19T15:04:37.021</Modified>
+      <Modified>2024-11-20T18:12:36.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Core\FluxuMente.Core\bin\Debug\net8.0\FluxuMente.Domain.dll">
       <PackagePath>FluxuMente.Domain.dll</PackagePath>
-      <Modified>2024-11-17T20:39:29.089</Modified>
+      <Modified>2024-11-20T16:03:49.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Infrastructure\FluxuMente.Infrastructure\bin\Debug\net8.0\FluxuMente.Infrastructure.dll">
       <PackagePath>FluxuMente.Infrastructure.dll</PackagePath>
-      <Modified>2024-11-18T21:58:46.251</Modified>
+      <Modified>2024-11-20T18:12:36.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\.nuget\packages\microsoft.maui.controls.compatibility\8.0.72\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

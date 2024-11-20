@@ -5,7 +5,7 @@ using FluxuMente.Presentation.Navigation;
 using FluxuMente.Presentation.Views;
 using System.Diagnostics;
 
-namespace FluxuMente.Application.ViewModels
+namespace FluxuMente.Presentation.ViewModels
 {
     public partial class InstallGuideViewModel : ObservableObject
     {
