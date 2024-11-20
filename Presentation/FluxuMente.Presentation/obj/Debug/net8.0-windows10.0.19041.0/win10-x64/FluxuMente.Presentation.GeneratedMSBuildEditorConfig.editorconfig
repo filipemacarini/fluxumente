@@ -42,6 +42,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FluxuMente.Presentation.Vi
 build_metadata.AdditionalFiles.TargetPath = Views\ChatView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ChatView.xaml
 
+[C:/Users/manau/source/repos/FluxuMente/Presentation/FluxuMente.Presentation/Views/CustomizationMessagesManagerView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FluxuMente.Presentation.Views.CustomizationMessagesManagerView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CustomizationMessagesManagerView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CustomizationMessagesManagerView.xaml
+
 [C:/Users/manau/source/repos/FluxuMente/Presentation/FluxuMente.Presentation/Views/CustomizationView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FluxuMente.Presentation.Views.CustomizationView.xaml

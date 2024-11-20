@@ -20,12 +20,13 @@ namespace FluxuMente.Application.Implementations
         {
             _messageMapper = new CustomizationMessageMapper();
 
-            _appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            _appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             _folderPath = Path.Combine(_appDataPath, "FluxuMente");
             _filePath = Path.Combine(_folderPath, "CustomizationMessages.json");
 
             _defaultMessages = new()
             {
+                new() { Title = "Padrão", Message = "" },
                 new() { Title = "Irmão", Message = "Default" },
                 new() { Title = "Irmã", Message = "Default" },
                 new() { Title = "Pai", Message = "Default" },
@@ -110,5 +111,4 @@ namespace FluxuMente.Application.Implementations
             await createStream.DisposeAsync();
         }
     }
-
 }

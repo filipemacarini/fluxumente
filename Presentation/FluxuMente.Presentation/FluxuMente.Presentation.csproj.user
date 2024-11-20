@@ -5,6 +5,9 @@
     <MauiXaml Update="Views\ChatView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\CustomizationMessagesManagerView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\CustomizationView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

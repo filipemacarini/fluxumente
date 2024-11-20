@@ -1,4 +1,5 @@
-﻿using FluxuMente.Presentation.Configuration;
+﻿using CommunityToolkit.Maui;
+using FluxuMente.Presentation.Configuration;
 using FluxuMente.Presentation.Configurations;
 using Microsoft.Extensions.Logging;
 
@@ -10,7 +11,8 @@ namespace FluxuMente.Presentation
         {
             var builder = MauiApp.CreateBuilder();
             builder
-                .UseMauiApp<App>();
+                .UseMauiApp<App>()
+                .UseMauiCommunityToolkit();
 
             // Configurations
             DependencyInjection.ConfigureServices(builder.Services);

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="FluxuMente.Presentation.Views.CustomizationView"
              Title="CustomizationView">
     <ContentPage.Resources>
@@ -30,14 +31,15 @@
                 StrokeShape="RoundRectangle 16"
                 Padding="16">
                 <Editor
-                    Text="{Binding Customization, Mode=TwoWay}"
+                    Text="{Binding CustomizationMessageMessage, Mode=TwoWay}"
                     FontSize="16"
                     TextColor="{StaticResource Gray100}"
                     FontFamily="RobotoR"
                     MaximumHeightRequest="100"/>
             </Border>
             <Grid
-                ColumnDefinitions="*, Auto">
+                ColumnSpacing="12"
+                ColumnDefinitions="Auto, *, Auto">
                 <Picker
                     HorizontalOptions="Start"
                     FontFamily="Roboto"
@@ -45,9 +47,27 @@
                     TextColor="{StaticResource Gray100}"
                     BackgroundColor="{StaticResource Gray600}"
                     ItemsSource="{Binding CustomizationMessageTitles}"
-                    SelectedItem="{Binding CustomizationMessage, Mode=TwoWay}"/>
+                    SelectedItem="{Binding CustomizationMessageTitle, Mode=TwoWay}">
+                    <Picker.Behaviors>
+                        <toolkit:EventToCommandBehavior
+                            EventName="SelectedIndexChanged"
+                            Command="{Binding UpdateMessageCommand}" />
+                    </Picker.Behaviors>
+                </Picker>
                 <Button
                     Grid.Column="1"
+                    Text="Customizar"
+                    TextColor="{StaticResource Gray100}"
+                    FontFamily="Roboto"
+                    FontSize="18"
+                    BackgroundColor="Green"
+                    HorizontalOptions="Start"
+                    CornerRadius="16"
+                    WidthRequest="200"
+                    Command="{Binding NavigateToNextPageCommand}"
+                    CommandParameter="CustomizationMessagesManagerView"/>
+                <Button
+                    Grid.Column="2"
                     Text="Prosseguir"
                     TextColor="{StaticResource Gray100}"
                     FontFamily="Roboto"
@@ -55,8 +75,9 @@
                     BackgroundColor="Blue"
                     HorizontalOptions="End"
                     CornerRadius="16"
-                    Command="{Binding NextPageCommand}"
-                    WidthRequest="200"/>
+                    WidthRequest="200"
+                    Command="{Binding NavigateToNextPageCommand}"
+                    CommandParameter="ChatView" />
             </Grid>
         </VerticalStackLayout>
     </ScrollView>

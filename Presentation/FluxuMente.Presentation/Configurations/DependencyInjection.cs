@@ -12,6 +12,8 @@ namespace FluxuMente.Presentation.Configuration
             // Views
             services.AddSingleton<InstallGuideView>();
             services.AddSingleton<CustomizationView>();
+            services.AddSingleton<CustomizationMessagesManagerView>();
+            services.AddSingleton<ChatView>();
 
             // Services
             services.AddSingleton<IOllamaChatService, OllamaChatService>();

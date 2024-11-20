@@ -6,10 +6,10 @@ namespace FluxuMente.Presentation.Views;
 
 public partial class CustomizationView : ContentPage
 {
-	public CustomizationView(INavigationService navigationService, ICustomizationMessageService customizationMessageService)
+	public CustomizationView(INavigationService navigationService, ICustomizationMessageService customizationMessageService, IServiceProvider serviceProvider)
 	{
 		InitializeComponent();
 
-		BindingContext = new CustomizationViewModel(navigationService, customizationMessageService);
+		BindingContext = new CustomizationViewModel(navigationService, customizationMessageService, serviceProvider);
 	}
 }

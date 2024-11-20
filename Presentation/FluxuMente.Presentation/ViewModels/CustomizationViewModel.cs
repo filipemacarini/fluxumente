@@ -4,7 +4,9 @@ using FluxuMente.Application.Abstractions;
 using FluxuMente.Application.DTOs;
 using FluxuMente.Presentation.Navigation;
 using FluxuMente.Presentation.Views;
+using Microsoft.UI.Xaml;
 using System.Diagnostics;
+using System.Windows.Input;
 
 namespace FluxuMente.Application.ViewModels
 {
@@ -12,20 +14,22 @@ namespace FluxuMente.Application.ViewModels
     {
         private readonly INavigationService _navigationService;
         private readonly ICustomizationMessageService _customizationMessageService;
+        private readonly IServiceProvider _serviceProvider;
 
         private List<CustomizationMessageDTO> _customizationMessages;
 
         [ObservableProperty]
-        public List<string> _customizationMessageTitles;        
+        public List<string> _customizationMessageTitles;
         [ObservableProperty]
-        public string _customizationMessage;
+        public string _customizationMessageTitle;
         [ObservableProperty]
-        public string _customization;
+        public string _customizationMessageMessage;
 
-        public CustomizationViewModel(INavigationService navigationService, ICustomizationMessageService customizationMessageService)
+        public CustomizationViewModel(INavigationService navigationService, ICustomizationMessageService customizationMessageService, IServiceProvider serviceProvider)
         {
             _customizationMessageService = customizationMessageService;
             _navigationService = navigationService;
+            _serviceProvider = serviceProvider;
 
             Task.Run(InitializeAsync);
         }
@@ -33,13 +37,23 @@ namespace FluxuMente.Application.ViewModels
         public async Task InitializeAsync()
         {
             _customizationMessages = await _customizationMessageService.GetAllMessagesAsync();
+
             CustomizationMessageTitles = _customizationMessages.Select(msg => msg.Title).ToList();
 
-            CustomizationMessage = CustomizationMessageTitles.FirstOrDefault() ?? "None";
+            CustomizationMessageTitle = CustomizationMessageTitles.FirstOrDefault() ?? "None";
         }
 
         [RelayCommand]
-        private async Task NextPage() =>
-            await _navigationService.NavigateToAsync(new ChatView());
+        private void UpdateMessage()
+        {
+            CustomizationMessageMessage = _customizationMessages.Find(msg => msg.Title.Equals(CustomizationMessageTitle))?.Message ?? "";
+        }
+
+        [RelayCommand]
+        public void NavigateToNextPage(string page)
+        {
+            Type pageType = Type.GetType($"FluxuMente.Presentation.Views.{page}");
+            _navigationService.NavigateToAsync((Page)_serviceProvider.GetRequiredService(pageType));
+        }
     }
 }
