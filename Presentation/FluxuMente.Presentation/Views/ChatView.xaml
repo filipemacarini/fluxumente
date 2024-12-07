@@ -7,7 +7,7 @@
     Title="ChatView">
     <ContentPage.Resources>
         <ResourceDictionary>
-            <converters:ListConverter x:Key="listConverter" />
+            <converters:ChatConverter x:Key="chatConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
     <Grid
@@ -56,7 +56,7 @@
         <CollectionView
             VerticalScrollBarVisibility="Never"
             Grid.Row="1"
-            ItemsSource="{Binding Messages, Converter={StaticResource Key=listConverter}}"
+            ItemsSource="{Binding Messages, Converter={StaticResource Key=chatConverter}}"
             VerticalOptions="StartAndExpand">
             <CollectionView.ItemTemplate>
                 <DataTemplate>

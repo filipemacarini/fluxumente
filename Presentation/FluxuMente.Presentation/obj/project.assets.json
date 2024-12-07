@@ -812,21 +812,6 @@
         "runtime": {
           "bin/placeholder/FluxuMente.Domain.dll": {}
         }
-      },
-      "FluxuMente.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "FluxuMente.Application": "1.0.0",
-          "FluxuMente.Domain": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
-        },
-        "compile": {
-          "bin/placeholder/FluxuMente.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FluxuMente.Infrastructure.dll": {}
-        }
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
@@ -1599,21 +1584,6 @@
         },
         "runtime": {
           "bin/placeholder/FluxuMente.Domain.dll": {}
-        }
-      },
-      "FluxuMente.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "FluxuMente.Application": "1.0.0",
-          "FluxuMente.Domain": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
-        },
-        "compile": {
-          "bin/placeholder/FluxuMente.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FluxuMente.Infrastructure.dll": {}
         }
       }
     }
@@ -3983,11 +3953,6 @@
       "type": "project",
       "path": "../../Core/FluxuMente.Core/FluxuMente.Domain.csproj",
       "msbuildProject": "../../Core/FluxuMente.Core/FluxuMente.Domain.csproj"
-    },
-    "FluxuMente.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../../Infrastructure/FluxuMente.Infrastructure/FluxuMente.Infrastructure.csproj",
-      "msbuildProject": "../../Infrastructure/FluxuMente.Infrastructure/FluxuMente.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3995,7 +3960,6 @@
       "CommunityToolkit.Maui >= 9.1.1",
       "CommunityToolkit.Mvvm >= 8.2.2",
       "FluxuMente.Application >= 1.0.0",
-      "FluxuMente.Infrastructure >= 1.0.0",
       "Markdig >= 0.38.0",
       "Microsoft.Extensions.Http >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
@@ -4011,7 +3975,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
-      "projectName": "FluxuMente.Presentation",
+      "projectName": "FluxuMente",
       "projectPath": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
       "packagesPath": "C:\\Users\\manau\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\obj\\",
@@ -4039,9 +4003,6 @@
           "projectReferences": {
             "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\FluxuMente.Application.csproj": {
               "projectPath": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\FluxuMente.Application.csproj"
-            },
-            "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Infrastructure\\FluxuMente.Infrastructure\\FluxuMente.Infrastructure.csproj"
             }
           }
         }

@@ -18,7 +18,7 @@ namespace FluxuMente.Presentation.Configurations
                 if (handler.PlatformView is Microsoft.UI.Xaml.Controls.TextBox nativeEntry)
                 {
                     nativeEntry.Style = null;
-                    nativeEntry.Padding = new Microsoft.UI.Xaml.Thickness(16, 0, 0, 0);
+                    nativeEntry.Padding = new Microsoft.UI.Xaml.Thickness(0);
                     nativeEntry.BorderThickness = new Microsoft.UI.Xaml.Thickness(0);
                 }
             });

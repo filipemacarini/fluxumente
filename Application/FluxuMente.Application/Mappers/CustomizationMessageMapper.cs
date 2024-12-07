@@ -9,8 +9,9 @@ namespace FluxuMente.Application.Mappers
         {
             return new CustomizationMessageDTO
             {
+                Id = message.Id,
                 Title = message.Title,
-                Message = message.Message
+                Content = message.Content
             };
         }
 
@@ -18,8 +19,9 @@ namespace FluxuMente.Application.Mappers
         {
             return new CustomizationMessage
             {
+                Id = dto.Id,
                 Title = dto.Title,
-                Message = dto.Message
+                Content = dto.Content
             };
         }
 

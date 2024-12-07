@@ -46,7 +46,7 @@ namespace FluxuMente.Presentation.ViewModels
         [RelayCommand]
         private void UpdateMessage()
         {
-            CustomizationMessageMessage = _customizationMessages.Find(msg => msg.Title.Equals(CustomizationMessageTitle))?.Message ?? "";
+            CustomizationMessageMessage = _customizationMessages.Find(msg => msg.Title.Equals(CustomizationMessageTitle))?.Content ?? "";
         }
 
         [RelayCommand]

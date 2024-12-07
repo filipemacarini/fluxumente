@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FluxuMente.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e8dd14d8061251722f55ede8dd3e07b3b53a576")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18f4c11d23bf505fa77ba213104ebb200b15628a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FluxuMente.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FluxuMente.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

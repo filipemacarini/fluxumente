@@ -26,11 +26,11 @@ namespace FluxuMente.Application.Implementations
 
             _defaultMessages = new()
             {
-                new() { Title = "Padrão", Message = "" },
-                new() { Title = "Irmão", Message = "Default" },
-                new() { Title = "Irmã", Message = "Default" },
-                new() { Title = "Pai", Message = "Default" },
-                new() { Title = "Mãe", Message = "Default" },
+                new() { Title = "Padrão", Content = "" },
+                new() { Title = "Irmão", Content = "Default" },
+                new() { Title = "Irmã", Content = "Default" },
+                new() { Title = "Pai", Content = "Default" },
+                new() { Title = "Mãe", Content = "Default" },
             };
         }
 
@@ -72,7 +72,7 @@ namespace FluxuMente.Application.Implementations
             if (message != null)
             {
                 customizationMessages[customizationMessages
-                    .FindIndex(msg => msg.Title.Equals(message.Title, StringComparison.OrdinalIgnoreCase))].Message = messageUpdated.Message;
+                    .FindIndex(msg => msg.Title.Equals(message.Title, StringComparison.OrdinalIgnoreCase))].Content = messageUpdated.Content;
                 await SaveMessagesAsync(customizationMessages);
             }
         }

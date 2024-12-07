@@ -28,14 +28,14 @@
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.Presentation.runtimeconfig.json">
-      <PackagePath>FluxuMente.Presentation.runtimeconfig.json</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.runtimeconfig.json">
+      <PackagePath>FluxuMente.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.Presentation.dll">
-      <PackagePath>FluxuMente.Presentation.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.dll">
+      <PackagePath>FluxuMente.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
-      <PackagePath>FluxuMente.Presentation.exe</PackagePath>
+      <PackagePath>FluxuMente.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -142,146 +142,152 @@
     <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\RobotoMono-ThinItalic.ttf">
       <PackagePath>RobotoMono-ThinItalic.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.ico">
+      <PackagePath>icon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-100.png">
+      <PackagePath>iconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-125.png">
+      <PackagePath>iconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-150.png">
+      <PackagePath>iconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-200.png">
+      <PackagePath>iconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-400.png">
+      <PackagePath>iconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>iconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>iconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-100.png">
+      <PackagePath>iconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-125.png">
+      <PackagePath>iconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-150.png">
+      <PackagePath>iconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-200.png">
+      <PackagePath>iconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-400.png">
+      <PackagePath>iconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-16.png">
+      <PackagePath>iconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-24.png">
+      <PackagePath>iconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-256.png">
+      <PackagePath>iconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-32.png">
+      <PackagePath>iconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-48.png">
+      <PackagePath>iconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-100.png">
+      <PackagePath>iconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-125.png">
+      <PackagePath>iconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-150.png">
+      <PackagePath>iconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-200.png">
+      <PackagePath>iconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-400.png">
+      <PackagePath>iconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-100.png">
+      <PackagePath>iconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-125.png">
+      <PackagePath>iconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-150.png">
+      <PackagePath>iconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-200.png">
+      <PackagePath>iconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-400.png">
+      <PackagePath>iconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-100.png">
+      <PackagePath>iconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-125.png">
+      <PackagePath>iconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-150.png">
+      <PackagePath>iconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-200.png">
+      <PackagePath>iconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-400.png">
+      <PackagePath>iconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-100.png">
+      <PackagePath>iconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-125.png">
+      <PackagePath>iconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-150.png">
+      <PackagePath>iconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-200.png">
+      <PackagePath>iconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-400.png">
+      <PackagePath>iconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.Presentation.deps.json">
-      <PackagePath>FluxuMente.Presentation.deps.json</PackagePath>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
+      <PackagePath>logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_corel.scale-100.cdr">
+      <PackagePath>logo_corel.scale-100.cdr</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\manau\source\repos\FluxuMente\Presentation\FluxuMente.Presentation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FluxuMente.deps.json">
+      <PackagePath>FluxuMente.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\manau\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

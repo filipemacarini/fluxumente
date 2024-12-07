@@ -1,12 +1,143 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FluxuMente.Presentation.Views.CustomizationMessagesManagerView"
-             Title="CustomizationMessagesManagerView">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="FluxuMente.Presentation.Views.CustomizationMessagesManagerView"
+    Title="CustomizationMessagesManagerView">
+    <ContentPage.Resources>
+        <Style x:Key="HeaderLabel" TargetType="Label">
+            <Setter Property="FontFamily" Value="Roboto"/>
+            <Setter Property="TextColor" Value="{StaticResource Gray100}"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+    </ContentPage.Resources>
+    <Grid
+        Padding="16"
+        MaximumWidthRequest="960"
+        RowSpacing="12"
+        RowDefinitions="*, Auto"
+        VerticalOptions="FillAndExpand">
+        <Grid
+            ColumnSpacing="12"
+            ColumnDefinitions="400, *">
+            <Grid
+                RowSpacing="12"
+                RowDefinitions="Auto, *">
+                <Border
+                    StrokeThickness="0"
+                    BackgroundColor="{StaticResource Gray950}"
+                    StrokeShape="RoundRectangle 16"
+                    Padding="16, 4">
+                    <Entry
+                        Text="{Binding DisplayMessage.Title}"
+                        FontSize="15"
+                        TextColor="{StaticResource Gray100}"
+                        FontFamily="RobotoR"
+                        Placeholder="Título da mensagem"/>
+                </Border>
+                <Border
+                    Grid.Row="1"
+                    StrokeThickness="0"
+                    BackgroundColor="{StaticResource Gray950}"
+                    StrokeShape="RoundRectangle 16"
+                    Padding="16">
+                    <Editor
+                        Text="{Binding DisplayMessage.Content}"
+                        FontSize="15"
+                        TextColor="{StaticResource Gray100}"
+                        FontFamily="RobotoR"
+                        Placeholder="Conteúdo da mensagem"/>
+                </Border>
+            </Grid>
+            <Border
+                Grid.Column="1"
+                StrokeThickness="0"
+                BackgroundColor="{StaticResource Gray950}"
+                StrokeShape="RoundRectangle 16">
+                <Grid 
+                    RowDefinitions="Auto, *"
+                    RowSpacing="12"
+                    Padding="16">
+                    <VerticalStackLayout Spacing="8">
+                        <Grid
+                            ColumnDefinitions=".35*, .65*"
+                            Padding="5, 0">
+                            <Label
+                                Grid.Column="0"
+                                Text="Título"
+                                Style="{StaticResource HeaderLabel}"/>
+                            <Label
+                                Grid.Column="1"
+                                Text="Conteúdo"
+                                Style="{StaticResource HeaderLabel}"/>
+                        </Grid>
+                        <BoxView HeightRequest="3" BackgroundColor="{StaticResource Gray900}" Margin="0" CornerRadius="2" />
+                    </VerticalStackLayout>
+                    <CollectionView
+                        Grid.Row="1"
+                        ItemsSource="{Binding Messages}"
+                        SelectionMode="Single"
+                        SelectedItem="{Binding SelectedMessage}"
+                        SelectionChangedCommand="{Binding SelectedMessageChangedCommand}">
+                        <!--<CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Vertical" ItemSpacing="0"/>
+                        </CollectionView.ItemsLayout>-->
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Border
+                                    StrokeThickness="0"
+                                    StrokeShape="RoundRectangle 2">
+                                    <Grid 
+                                        ColumnDefinitions=".35*, .65*"
+                                        Padding="5, 4"
+                                        BackgroundColor="{Binding BackgroundColor}">
+                                        <Label
+                                            Grid.Column="0"
+                                            Text="{Binding Title}"
+                                            FontFamily="RobotoR"
+                                            FontSize="15"
+                                            TextColor="{StaticResource Gray100}"/>
+                                        <Label
+                                            Grid.Column="1"
+                                            Text="{Binding Content}"
+                                            FontFamily="RobotoR"
+                                            FontSize="15"
+                                            TextColor="{StaticResource Gray100}"/>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid
+            Grid.Row="1"
+            ColumnSpacing="12"
+            ColumnDefinitions="*, *, *">
+            <Button
+                Text="Excluir"
+                TextColor="{StaticResource Gray100}"
+                FontFamily="Roboto"
+                FontSize="18"
+                BackgroundColor="{StaticResource Red}"
+                CornerRadius="16"/>
+            <Button
+                Grid.Column="1"
+                Text="Modificar"
+                TextColor="{StaticResource Gray100}"
+                FontFamily="Roboto"
+                FontSize="18"
+                BackgroundColor="{StaticResource Blue}"
+                CornerRadius="16"/>
+            <Button
+                Grid.Column="2"
+                Text="Adicionar"
+                TextColor="{StaticResource Gray100}"
+                FontFamily="Roboto"
+                FontSize="18"
+                BackgroundColor="{StaticResource Green}"
+                CornerRadius="16"/>
+        </Grid>
+    </Grid>
 </ContentPage>
