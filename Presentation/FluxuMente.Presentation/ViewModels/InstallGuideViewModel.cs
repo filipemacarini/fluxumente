@@ -13,6 +13,8 @@ namespace FluxuMente.Presentation.ViewModels
         private readonly IOllamaChatService _ollamaChatService;
         private readonly IServiceProvider _serviceProvider;
 
+        private bool _hasLoadedOnce = false;
+
         public InstallGuideViewModel(INavigationService navigationService, IOllamaChatService ollamaChatService, IServiceProvider serviceProvider)
         {
             _navigationService = navigationService;
@@ -28,7 +30,13 @@ namespace FluxuMente.Presentation.ViewModels
 
         private async Task NextPage(bool isConnected = true)
         {
-            if (isConnected) await _navigationService.NavigateToAsync(_serviceProvider.GetRequiredService<CustomizationView>());
+            if (isConnected)
+            {
+                await _navigationService.NavigateToAsync(_serviceProvider.GetRequiredService<CustomizationView>());
+                return;
+            }
+            if (_hasLoadedOnce) await App.Current.MainPage.DisplayAlert("Siga as instruções", "Não foi possível conectar com o serviço Ollama! \nCertifique-se que você seguiu as instruções da página!", "Ok");
+            _hasLoadedOnce = true;
         }
 
         [RelayCommand]
