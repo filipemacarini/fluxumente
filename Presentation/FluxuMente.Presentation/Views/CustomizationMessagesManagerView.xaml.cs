@@ -1,13 +1,14 @@
+using FluxuMente.Application.Abstractions;
 using FluxuMente.Presentation.ViewModels;
 
 namespace FluxuMente.Presentation.Views;
 
 public partial class CustomizationMessagesManagerView : ContentPage
 {
-	public CustomizationMessagesManagerView()
+	public CustomizationMessagesManagerView(ICustomizationMessageService customizationMessageService)
 	{
 		InitializeComponent();
 
-		BindingContext = new CustomizationMessagesManagerViewModel();
+		BindingContext = new CustomizationMessagesManagerViewModel(customizationMessageService);
 	}
 }

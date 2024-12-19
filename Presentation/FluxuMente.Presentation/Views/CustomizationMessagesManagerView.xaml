@@ -29,7 +29,7 @@
                     StrokeShape="RoundRectangle 16"
                     Padding="16, 4">
                     <Entry
-                        Text="{Binding DisplayMessage.Title}"
+                        Text="{Binding DisplayMessage.Title, Mode=TwoWay}"
                         FontSize="15"
                         TextColor="{StaticResource Gray100}"
                         FontFamily="RobotoR"
@@ -42,7 +42,7 @@
                     StrokeShape="RoundRectangle 16"
                     Padding="16">
                     <Editor
-                        Text="{Binding DisplayMessage.Content}"
+                        Text="{Binding DisplayMessage.Content, Mode=TwoWay}"
                         FontSize="15"
                         TextColor="{StaticResource Gray100}"
                         FontFamily="RobotoR"
@@ -60,7 +60,7 @@
                     Padding="16">
                     <VerticalStackLayout Spacing="8">
                         <Grid
-                            ColumnDefinitions=".35*, .65*"
+                            ColumnDefinitions=".3*, .7*"
                             Padding="5, 0">
                             <Label
                                 Grid.Column="0"
@@ -88,7 +88,7 @@
                                     StrokeThickness="0"
                                     StrokeShape="RoundRectangle 2">
                                     <Grid 
-                                        ColumnDefinitions=".35*, .65*"
+                                        ColumnDefinitions=".3*, .7*"
                                         Padding="5, 4"
                                         BackgroundColor="{Binding BackgroundColor}">
                                         <Label
@@ -117,6 +117,7 @@
             ColumnDefinitions="*, *, *">
             <Button
                 Text="Excluir"
+                Command="{Binding DeleteAsyncCommand}"
                 TextColor="{StaticResource Gray100}"
                 FontFamily="Roboto"
                 FontSize="18"
@@ -125,6 +126,7 @@
             <Button
                 Grid.Column="1"
                 Text="Modificar"
+                Command="{Binding UpdateAsyncCommand}"
                 TextColor="{StaticResource Gray100}"
                 FontFamily="Roboto"
                 FontSize="18"
@@ -133,6 +135,7 @@
             <Button
                 Grid.Column="2"
                 Text="Adicionar"
+                Command="{Binding AddAsyncCommand}"
                 TextColor="{StaticResource Gray100}"
                 FontFamily="Roboto"
                 FontSize="18"

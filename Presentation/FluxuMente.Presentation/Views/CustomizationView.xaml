@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-             x:Class="FluxuMente.Presentation.Views.CustomizationView"
-             Title="CustomizationView">
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    x:Class="FluxuMente.Presentation.Views.CustomizationView"
+    Title="CustomizationView">
     <ContentPage.Resources>
         <Style x:Key="SimpleTextStyle" TargetType="Label">
             <Setter Property="FontSize" Value="16"/>
@@ -39,14 +40,14 @@
             </Border>
             <Grid
                 ColumnSpacing="12"
-                ColumnDefinitions="Auto, *, Auto">
+                ColumnDefinitions="*, *, *">
                 <Picker
-                    HorizontalOptions="Start"
                     FontFamily="Roboto"
-                    WidthRequest="150"
+                    HorizontalOptions="Fill"
                     TextColor="{StaticResource Gray100}"
                     BackgroundColor="{StaticResource Gray600}"
                     ItemsSource="{Binding CustomizationMessageTitles}"
+                    SelectedIndex="{Binding CustomizationMessageIndex, Mode=TwoWay}"
                     SelectedItem="{Binding CustomizationMessageTitle, Mode=TwoWay}">
                     <Picker.Behaviors>
                         <toolkit:EventToCommandBehavior
@@ -61,9 +62,8 @@
                     FontFamily="Roboto"
                     FontSize="18"
                     BackgroundColor="{StaticResource Green}"
-                    HorizontalOptions="Start"
+                    HorizontalOptions="Fill"
                     CornerRadius="16"
-                    WidthRequest="200"
                     Command="{Binding NavigateToNextPageCommand}"
                     CommandParameter="CustomizationMessagesManagerView"/>
                 <Button
@@ -73,9 +73,8 @@
                     FontFamily="Roboto"
                     FontSize="18"
                     BackgroundColor="{StaticResource Blue}"
-                    HorizontalOptions="End"
+                    HorizontalOptions="Fill"
                     CornerRadius="16"
-                    WidthRequest="200"
                     Command="{Binding NavigateToNextPageCommand}"
                     CommandParameter="ChatView" />
             </Grid>

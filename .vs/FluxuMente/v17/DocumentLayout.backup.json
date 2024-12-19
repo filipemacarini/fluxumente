@@ -3,16 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\manau\\source\\repos\\FluxuMente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\viewmodels\\customizationmessagesmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\viewmodels\\customizationmessagesmanagerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\fluxumente.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\fluxumente.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\views\\customizationmessagesmanagerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\views\\customizationmessagesmanagerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\views\\installguideview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\views\\installguideview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\views\\installguideview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\views\\installguideview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\viewmodels\\installguideviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\viewmodels\\installguideviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\implementations\\customizationmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\implementations\\customizationmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\views\\customizationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\views\\customizationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\presentation\\fluxumente.presentation\\viewmodels\\customizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD29E517-FEB5-4A31-A92C-6BD2BC170B8B}|Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj|solutionrelative:presentation\\fluxumente.presentation\\viewmodels\\customizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|c:\\users\\manau\\source\\repos\\fluxumente\\application\\fluxumente.application\\mappers\\customizationmessagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44B2D88-1040-4538-8096-45728D62C526}|Application\\FluxuMente.Application\\FluxuMente.Application.csproj|solutionrelative:application\\fluxumente.application\\mappers\\customizationmessagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manau\\AppData\\Local\\SourceServer\\17e2da7fdf4f93e70dfa4310a62e05504a67516677beb588d63470487fd22b58\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +65,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomizationMessagesManagerView.xaml",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\CustomizationMessagesManagerView.xaml",
-              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Views\\CustomizationMessagesManagerView.xaml",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\CustomizationMessagesManagerView.xaml",
-              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Views\\CustomizationMessagesManagerView.xaml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T13:34:13.398Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomizationMessagesManagerViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationMessagesManagerViewModel.cs",
-              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationMessagesManagerViewModel.cs",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationMessagesManagerViewModel.cs*",
-              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationMessagesManagerViewModel.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:37:51.831Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -90,16 +105,181 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Colors.xaml",
-              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Resources\\Styles\\Colors.xaml",
-              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Resources\\Styles\\Colors.xaml",
-              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Resources\\Styles\\Colors.xaml",
-              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Resources\\Styles\\Colors.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-07T19:11:34.764Z",
+              "DocumentIndex": 0,
+              "Title": "FluxuMente.Presentation",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\FluxuMente.Presentation.csproj",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T12:14:23.013Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\App.xaml.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:01:57.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\AppShell.xaml.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T12:01:55.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\App.xaml",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\App.xaml",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\App.xaml",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T12:01:48.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\AppShell.xaml",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T12:01:47.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InstallGuideView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T11:59:36.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstallGuideView.xaml",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Views\\InstallGuideView.xaml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T11:57:09.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InstallGuideViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\InstallGuideViewModel.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\ViewModels\\InstallGuideViewModel.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\InstallGuideViewModel.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\ViewModels\\InstallGuideViewModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T11:56:47.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomizationMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
+              "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
+              "RelativeToolTip": "Application\\FluxuMente.Application\\Implementations\\CustomizationMessageService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T02:16:40.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomizationView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\CustomizationView.xaml.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\Views\\CustomizationView.xaml.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\Views\\CustomizationView.xaml.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\Views\\CustomizationView.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:56:19.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomizationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAD4AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T21:44:20.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomizationMessageMapper.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Mappers\\CustomizationMessageMapper.cs",
+              "RelativeDocumentMoniker": "Application\\FluxuMente.Application\\Mappers\\CustomizationMessageMapper.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Application\\FluxuMente.Application\\Mappers\\CustomizationMessageMapper.cs",
+              "RelativeToolTip": "Application\\FluxuMente.Application\\Mappers\\CustomizationMessageMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T02:16:29.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\manau\\source\\repos\\FluxuMente\\Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "Presentation\\FluxuMente.Presentation\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAlwEoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:18:15.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomizationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\manau\\AppData\\Local\\SourceServer\\17e2da7fdf4f93e70dfa4310a62e05504a67516677beb588d63470487fd22b58\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\17e2da7fdf4f93e70dfa4310a62e05504a67516677beb588d63470487fd22b58\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs",
+              "ToolTip": "C:\\Users\\manau\\AppData\\Local\\SourceServer\\17e2da7fdf4f93e70dfa4310a62e05504a67516677beb588d63470487fd22b58\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\17e2da7fdf4f93e70dfa4310a62e05504a67516677beb588d63470487fd22b58\\Presentation\\FluxuMente.Presentation\\ViewModels\\CustomizationViewModel.cs [Somente Leitura]",
+              "ViewState": "AgIAACYAAAAAAAAAAAArwC8AAAAIAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T01:30:56.244Z",
+              "EditorCaption": " [Somente Leitura]"
             }
           ]
         }

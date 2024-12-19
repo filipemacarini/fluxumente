@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using FluxuMente.Application.Abstractions;
 using FluxuMente.Application.DTOs;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,6 +10,7 @@ namespace FluxuMente.Presentation.ViewModels
     public partial class CustomizationMessagesManagerViewModel : ObservableObject
     {
         private List<CustomizationMessageDTO> _baseMessages;
+        private ICustomizationMessageService _customizationMessageService;
 
         [ObservableProperty]
         public ObservableCollection<MessageExtension> _messages;
@@ -17,17 +19,25 @@ namespace FluxuMente.Presentation.ViewModels
         [ObservableProperty]
         public CustomizationMessageDTO _displayMessage;
 
-        public CustomizationMessagesManagerViewModel()
+        public CustomizationMessagesManagerViewModel(ICustomizationMessageService customizationMessageService)
         {
-            _baseMessages = new()
-            {
-                new() { Id = 0, Title = "Teste", Content = "Conteúdo" },
-                new() { Id = 1, Title = "Teste", Content = "Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo" },
-                new() { Id = 2, Title = "Teste", Content = "Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo, Conteúdo" },
-            };
+            _customizationMessageService = customizationMessageService;
 
-            Messages = MessageExtension.ConvertBaseListToExtensionList(_baseMessages);
+            InitializeAsync();
         }
+
+        public async void InitializeAsync()
+        {
+            await LoadMessages();
+            UpdateMessageList();
+            DisplayMessage = new CustomizationMessageDTO() { Id = 0, Title = "", Content = "" };
+        }
+
+        public async Task LoadMessages() =>
+            _baseMessages = await _customizationMessageService.GetAllMessagesAsync();
+
+        public void UpdateMessageList() =>
+            Messages = MessageExtension.ConvertBaseListToExtensionList(_baseMessages);
 
         [RelayCommand]
         public void SelectedMessageChanged()
@@ -39,19 +49,26 @@ namespace FluxuMente.Presentation.ViewModels
             DisplayMessage = SelectedMessage.GetBaseMessage();
         }
 
-        public async Task AddAsync()
+        [RelayCommand]
+        public async void AddAsync()
         {
-
+            if (String.IsNullOrWhiteSpace(DisplayMessage.Title) || String.IsNullOrWhiteSpace(DisplayMessage.Content)) return;
+            await _customizationMessageService.AddMessageAsync(DisplayMessage);
+            InitializeAsync();
         }
 
-        public async Task UpdateAsync()
+        [RelayCommand]
+        public async void UpdateAsync()
         {
-
+            await _customizationMessageService.UpdateMessageAsync(DisplayMessage);
+            InitializeAsync();
         }
 
-        public async Task DeleteAsync()
+        [RelayCommand]
+        public async void DeleteAsync()
         {
-
+            await _customizationMessageService.RemoveMessageAsync(SelectedMessage.Id);
+            InitializeAsync();
         }
     }
 
@@ -70,6 +87,7 @@ namespace FluxuMente.Presentation.ViewModels
             var returnList = new ObservableCollection<MessageExtension>(
                 messages.Select(message => new MessageExtension
                 {
+                    Id = message.Id,
                     Title = message.Title,
                     Content = message.Content,
                     BackgroundColor = Color.FromArgb("#141414")
@@ -82,6 +100,7 @@ namespace FluxuMente.Presentation.ViewModels
         {
             var returnMessage = new CustomizationMessageDTO
             {
+                Id= this.Id,
                 Title = this.Title,
                 Content = this.Content,
             };

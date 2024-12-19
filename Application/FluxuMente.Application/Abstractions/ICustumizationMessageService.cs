@@ -6,7 +6,7 @@ namespace FluxuMente.Application.Abstractions
     {
         Task<List<CustomizationMessageDTO>> GetAllMessagesAsync();
         Task AddMessageAsync(CustomizationMessageDTO message);
-        Task RemoveMessageAsync(string title);
+        Task RemoveMessageAsync(int id);
         Task UpdateMessageAsync(CustomizationMessageDTO messageUpdated);
     }
 }

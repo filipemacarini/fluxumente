@@ -6,10 +6,22 @@ namespace FluxuMente.Presentation.Views;
 
 public partial class InstallGuideView : ContentPage
 {
-	public InstallGuideView(INavigationService navigationService, IOllamaChatService ollamaChatService, IServiceProvider serviceProvider)
+    private bool _hasLoadedOnce = false;
+
+    public InstallGuideView(INavigationService navigationService, IOllamaChatService ollamaChatService, IServiceProvider serviceProvider)
 	{
 		InitializeComponent();
 
         BindingContext = new InstallGuideViewModel(navigationService, ollamaChatService, serviceProvider);
 	}
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
+        if (BindingContext is InstallGuideViewModel viewModel && !_hasLoadedOnce)
+        {
+            viewModel.TestState();
+            _hasLoadedOnce = true;
+        }
+    }
 }

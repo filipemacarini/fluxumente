@@ -4,6 +4,7 @@ using FluxuMente.Application.Mappers;
 using FluxuMente.Domain.Entities;
 using System.Reflection;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 
 namespace FluxuMente.Application.Implementations
 {
@@ -26,11 +27,11 @@ namespace FluxuMente.Application.Implementations
 
             _defaultMessages = new()
             {
-                new() { Title = "Padrão", Content = "" },
-                new() { Title = "Irmão", Content = "Default" },
-                new() { Title = "Irmã", Content = "Default" },
-                new() { Title = "Pai", Content = "Default" },
-                new() { Title = "Mãe", Content = "Default" },
+                new() { Id = 0, Title = "Padrão", Content = "" },
+                new() { Id = 1, Title = "Irmão", Content = "Default" },
+                new() { Id = 2, Title = "Irmã", Content = "Default" },
+                new() { Id = 3, Title = "Pai", Content = "Default" },
+                new() { Id = 4, Title = "Mãe", Content = "Default" },
             };
         }
 
@@ -48,18 +49,28 @@ namespace FluxuMente.Application.Implementations
         public async Task AddMessageAsync(CustomizationMessageDTO message)
         {
             var customizationMessages = await GetAllMessagesAsync();
+            message.Id = customizationMessages.Max(m => m.Id) + 1;
+            int index = 2;
+            while (customizationMessages.Exists(msg => msg.Title == message.Title))
+            {
+                string pattern = @" \(\d+\)";
+                string cleanTitle = message.Title;
+                if (customizationMessages.Exists(msg => msg.Title == message.Title))
+                    cleanTitle = Regex.Replace(message.Title, pattern, "");
+                message.Title = $"{cleanTitle} ({index++})";
+            }
             customizationMessages.Add(message);
             await SaveMessagesAsync(customizationMessages);
         }
 
-        public async Task RemoveMessageAsync(string title)
+        public async Task RemoveMessageAsync(int id)
         {
             var customizationMessages = await GetAllMessagesAsync();
-            var message = await GetMessageByTitleAsync(title);
+            var message = await GetMessageByIdAsync(id);
 
             if (message != null)
             {
-                customizationMessages.Remove(message);
+                customizationMessages.RemoveAll(m => m.Id == message.Id);
                 await SaveMessagesAsync(customizationMessages);
             }
         }
@@ -67,20 +78,21 @@ namespace FluxuMente.Application.Implementations
         public async Task UpdateMessageAsync(CustomizationMessageDTO messageUpdated)
         {
             var customizationMessages = await GetAllMessagesAsync();
-            var message = await GetMessageByTitleAsync(messageUpdated.Title);
+            var message = await GetMessageByIdAsync(messageUpdated.Id);
 
             if (message != null)
             {
-                customizationMessages[customizationMessages
-                    .FindIndex(msg => msg.Title.Equals(message.Title, StringComparison.OrdinalIgnoreCase))].Content = messageUpdated.Content;
+                int index = customizationMessages.FindIndex(msg => msg.Id == messageUpdated.Id);
+                customizationMessages[index].Content = messageUpdated.Content;
+                customizationMessages[index].Title = messageUpdated.Title;
                 await SaveMessagesAsync(customizationMessages);
             }
         }
 
-        private async Task<CustomizationMessageDTO?> GetMessageByTitleAsync(string title)
+        private async Task<CustomizationMessageDTO?> GetMessageByIdAsync(int id)
         {
             var customizationMessages = await GetAllMessagesAsync();
-            var message = customizationMessages.Find(msg => msg.Title.Equals(title, StringComparison.OrdinalIgnoreCase));
+            var message = customizationMessages.Where(msg => msg.Id == id).FirstOrDefault();
             return message;
         } 
 
@@ -90,9 +102,7 @@ namespace FluxuMente.Application.Implementations
                 Directory.CreateDirectory(_folderPath);
 
             if (!File.Exists(_filePath))
-            {
                 await SaveMessagesAsync(_defaultMessages);
-            }
         }
 
         private async Task SaveMessagesAsync(List<CustomizationMessage> messages)

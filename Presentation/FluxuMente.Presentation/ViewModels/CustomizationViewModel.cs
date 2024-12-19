@@ -5,6 +5,7 @@ using FluxuMente.Application.DTOs;
 using FluxuMente.Presentation.Navigation;
 using FluxuMente.Presentation.Views;
 using Microsoft.UI.Xaml;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Windows.Input;
 
@@ -24,6 +25,8 @@ namespace FluxuMente.Presentation.ViewModels
         public string _customizationMessageTitle;
         [ObservableProperty]
         public string _customizationMessageMessage;
+        [ObservableProperty]
+        public int _customizationMessageIndex;
 
         public CustomizationViewModel(INavigationService navigationService, ICustomizationMessageService customizationMessageService, IServiceProvider serviceProvider)
         {
@@ -31,22 +34,33 @@ namespace FluxuMente.Presentation.ViewModels
             _navigationService = navigationService;
             _serviceProvider = serviceProvider;
 
-            Task.Run(InitializeAsync);
+            InitializeAsync();
         }
 
-        public async Task InitializeAsync()
+        public async void InitializeAsync()
         {
+            await SetTasksAndTitles();
+            CustomizationMessageTitle = CustomizationMessageTitles.FirstOrDefault() ?? "None";
+            CustomizationMessageMessage = _customizationMessages[CustomizationMessageIndex].Content ?? "";
+        }
+
+        public async Task SetTasksAndTitles()
+        {
+            await SetAllMessagesAsync();
+            SetAllMessageTitlesAsync();
+        }
+
+        public async Task SetAllMessagesAsync() =>
             _customizationMessages = await _customizationMessageService.GetAllMessagesAsync();
 
+        public void SetAllMessageTitlesAsync() =>
             CustomizationMessageTitles = _customizationMessages.Select(msg => msg.Title).ToList();
 
-            CustomizationMessageTitle = CustomizationMessageTitles.FirstOrDefault() ?? "None";
-        }
-
         [RelayCommand]
-        private void UpdateMessage()
+        public async Task UpdateMessage()
         {
-            CustomizationMessageMessage = _customizationMessages.Find(msg => msg.Title.Equals(CustomizationMessageTitle))?.Content ?? "";
+            await SetTasksAndTitles();
+            CustomizationMessageMessage = _customizationMessages[CustomizationMessageIndex].Content ?? "";
         }
 
         [RelayCommand]
