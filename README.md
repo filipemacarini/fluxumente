@@ -25,7 +25,3 @@ FluxuMente é uma interface (UI) para o consumo de IAs de texto do Ollama, propo
 ## Plataforma
 
 FluxuMente foi desenvolvido para rodar no **Windows 10** ou posterior.
-
-## O Projeto Está Completo?
-
-Infelizmente, o projeto ainda não está completo. No momento, já existe uma tela de instruções para ajudar a baixar e instalar as ferramentas. A tela de personalização da IA está em desenvolvimento.
